@@ -60,7 +60,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title("私たふ!ましゅしのせいでAIになっちゃった")
-#st.image("test.png")
+st.image("test.png")
 #from PIL import Image
 #image = Image.open('test.png')
 #st.image(image, caption='test.png',use_column_width=True)
