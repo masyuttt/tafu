@@ -61,11 +61,9 @@ def communicate():
 # ユーザーインターフェイスの構築
 st.title("私たふ!ましゅしのせいでAIになっちゃった")
 #st.image("01_recipe.png")
-from PIL import Image
-
-image = Image.open('test.png')
-
-st.image(image, caption='test.png',use_column_width=True)
+#from PIL import Image
+#image = Image.open('test.png')
+#st.image(image, caption='test.png',use_column_width=True)
 st.write("スプラトゥーンのことなんでも教えてあげるけん")
 
 user_input = st.text_input("なに聞きたいと？", key="user_input", on_change=communicate)
